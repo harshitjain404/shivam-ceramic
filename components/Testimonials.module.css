@@ -1,0 +1,53 @@
+/* Section */
+.section {
+  padding: 100px 0;
+}
+
+/* Tag */
+.tag {
+  color: #00aaff;
+  text-align: center;
+  margin-bottom: 14px;
+}
+
+/* Title */
+.title {
+  text-align: center;
+  font-size: 42px;
+  margin-bottom: 60px;
+}
+
+/* Grid */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+/* Card */
+.card {
+  background: #111;
+  border: 1px solid #1f1f1f;
+  border-radius: 24px;
+  padding: 32px;
+}
+
+/* Review */
+.review {
+  color: #bbb;
+  line-height: 1.8;
+  margin-bottom: 24px;
+}
+
+/* Name */
+.name {
+  font-weight: 700;
+  color: white;
+}
+
+/* Tablet */
+@media (max-width: 950px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}

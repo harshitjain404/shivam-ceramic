@@ -1,0 +1,47 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  border-bottom: 1px solid #1f1f1f;
+  position: sticky;
+  top: 0;
+  background: rgba(10,10,10,0.9);
+  backdrop-filter: blur(10px);
+}
+
+.logo {
+  font-size: 34px;
+  font-weight: 800;
+}
+
+.links {
+  display: flex;
+  gap: 25px;
+}
+
+.links a {
+  color: #ccc;
+}
+
+.btn {
+  background: #00aaff;
+  border: none;
+  color: white;
+  padding: 12px 18px;
+  border-radius: 10px;
+}
+
+@media(max-width:768px){
+  .links{
+    display:none;
+  }
+
+  .nav{
+    padding:20px;
+  }
+
+  .logo{
+    font-size:28px;
+  }
+}
